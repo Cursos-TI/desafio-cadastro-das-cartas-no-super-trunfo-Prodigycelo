@@ -12,7 +12,7 @@ int main() {
     printf("Vamos cadastrar a primeira carta: \n");
 
     printf("Digite o nome de um Estado de A a H: \n");
-    scanf(" %c", &Estado1);
+    scanf(" %s", &Estado1);
 
     printf("Digite o codigo da carta 1: \n");
     scanf("%40s", codigo1);
@@ -35,7 +35,7 @@ int main() {
     printf("Agora vamos cadastrar a segunda carta: \n");
 
     printf("Digite o nome de um Estado de A a H: \n");
-    scanf(" %c", &Estado2);
+    scanf(" %s", &Estado2);
 
     printf("Digite o codigo da carta 2: \n");
     scanf("%40s", codigo2);
